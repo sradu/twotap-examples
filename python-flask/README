@@ -1,0 +1,20 @@
+Example integratio of the TwoTap API for python/flask
+=====================================================
+
+1. Create a virtualenv and install flask and requests
+
+$ virtualenv venv
+
+$ venv/bin/pip install flask pip
+
+
+2. Configure the app
+
+$ cp config.py.example config.py
+
+edit config.py with your public/private keys and your server's domain name
+
+
+3. Run the app
+
+$ venv/bin/python app.py
